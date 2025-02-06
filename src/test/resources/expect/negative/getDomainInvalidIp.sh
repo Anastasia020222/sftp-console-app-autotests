@@ -6,7 +6,7 @@ set userName "usersftp"
 set password "usersftp"
 
 set domain "get_domain"
-set ip "192.168.0.3"
+set ip "192.168.0.8"
 
 spawn mvn exec:java
 

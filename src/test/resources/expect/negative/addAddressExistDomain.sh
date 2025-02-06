@@ -5,8 +5,8 @@ set port 22
 set username "usersftp"
 set password "usersftp"
 
-set domain "test.domain"
-set ip "192.168.0.15"
+set domain "first.domain"
+set ip "192.168.0.1"
 
 spawn mvn exec:java
 
