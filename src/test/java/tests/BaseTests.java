@@ -1,13 +1,12 @@
 package tests;
 
 import autotest.console.app.exception.CustomExceptionErrorApp;
-import practice.autotest.exception.CustomException;
 
 import java.io.*;
 
 public abstract class BaseTests {
 
-    public void runExpectScript(String path) throws CustomException {
+    public void runExpectScript(String path) {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder("expect", path);
             Process process = processBuilder.start();

@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <testng.version>7.10.2</testng.version>
+        <sftp.path>/home/sftpuser/files/domain.json</sftp.path>
     </properties>
 
     <dependencies>
@@ -27,6 +28,8 @@
             <groupId>practice.avtotes</groupId>
             <artifactId>tz-autotestirovanie-java</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/tz_avtotestirovanie_java_jar/tz-avtotestirovanie-java.jar</systemPath>
         </dependency>
     </dependencies>
 
@@ -45,6 +48,10 @@
                 </executions>
                 <configuration>
                     <mainClass>practice.autotest.MenuConsoleApp</mainClass>
+                    <classpathScope>compile</classpathScope>
+                    <arguments>
+                        <argument>${sftp.path}</argument>
+                    </arguments>
                 </configuration>
             </plugin>
         </plugins>
