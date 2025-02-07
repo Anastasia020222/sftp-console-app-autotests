@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>autotest.console.app</groupId>
-    <artifactId>autotest-console-app</artifactId>
+    <artifactId>sftp-console-app-autotests</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -26,10 +26,10 @@
         </dependency>
         <dependency>
             <groupId>practice.avtotes</groupId>
-            <artifactId>tz-autotestirovanie-java</artifactId>
+            <artifactId>sftp-console-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/tz_avtotestirovanie_java_jar/tz-avtotestirovanie-java.jar</systemPath>
+            <systemPath>${project.basedir}/lib/sftp_console_app_jar/sftp-console-app.jar</systemPath>
         </dependency>
     </dependencies>
 

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Main-Class: org.testng.TestNG
-Class-Path: tz-avtotestirovanie-java.jar testng-7.10.2.jar slf4j-api-1.7
- .36.jar jquery-3.7.1.jar jcommander-1.82.jar
+Class-Path: jcommander-1.82.jar sftp-console-app.jar testng-7.10.2.jar j
+ query-3.7.1.jar slf4j-api-1.7.36.jar
 
